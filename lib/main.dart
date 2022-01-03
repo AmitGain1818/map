@@ -74,9 +74,10 @@ class _HomepageState extends State<Homepage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(
-              'Google Map',
-              style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+            Icon(
+              Icons.location_on,
+              size: 58,
+              color: Colors.red,
             ),
             SizedBox(
               height: 10,
